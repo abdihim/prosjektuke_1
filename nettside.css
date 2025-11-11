@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: white; /* hvit bakgrunn */
+    color: black; /* svart tekst */
+}
+
+header {
+    background-color: black; /* svart header */
+    color: white; /* hvit tekst */
+    padding: 20px;
+}
+
+nav {
+    background-color: #333; /* mørk grå nav */
+    padding: 10px 0;
+}
+
+nav a {
+    color: white; /* hvite linker */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: black; /* svart footer */
+    color: white; /* hvit tekst */
+    padding: 10px 0;
+    margin-top: 20px;
+}
