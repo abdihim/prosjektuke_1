@@ -1,4 +1,7 @@
 # prosjektuke_1
+https://www.figma.com/design/ZIZ8MtinKvNr6ac7M7GJVb/Untitled?node-id=0-1&t=bFGEMlAhsYFqjLMg-1
+
+
 Jeg skal lage en enkel **personlig nettside/portefølje** som viser hvem jeg er og prosjekter jeg har laget.
 
 ## Idé
