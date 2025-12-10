@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="kontakt.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kontakt meg</h1>
+        <p>Har du spørsmål? Send meg en melding!</p>
+
+        <form id="kontakt-form">
+            <label for="navn">Navn:</label>
+            <input type="text" id="navn" name="navn" placeholder="Fornavn Etternavn" required>
+
+            <label for="epost">E-post:</label>
+            <input type="email" id="epost" name="epost" placeholder="du@eksempel.no" required>
+
+            <label for="melding">Melding:</label>
+            <textarea id="melding" name="melding" placeholder="Skriv meldingen din her..." required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <script>
+        const form = document.getElementById('kontakt-form');
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Takk! Meldingen din er sendt (demo).');
+            form.reset();
+        });
+    </script>
+</body>
+</html>
